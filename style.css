@@ -1,5 +1,5 @@
-*{
-    margin: 0;
+* {
+   margin: 0;
     padding: 0;
 }
 :root {
@@ -11,16 +11,16 @@
 
 }
 
-.body{
+.body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
 }
 
-.container{
+.container {
     height: 100vh;
 }
 
-.principal{
+.principal {
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
