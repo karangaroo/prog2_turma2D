@@ -21,13 +21,18 @@ body {
 }
 
 .principal {
-    background-image: url("img/Background.png");
+    background-image: url("img/duque.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 50%;
+    background-position:right;
+    margin-right: 50px;
     align-items: center;
     text-align: center;
 }
 
+.imagem_duque {
+    border-radius: 50px;
+}
 .container {
     height: 100vh;
     display: grid;
@@ -120,6 +125,11 @@ body {
 .rodape {
     text-align: center;
     margin: 5em 3em;
+}
+
+.logo_img {
+
+    width: 20%;
 }
 
 .rodape__lista {
